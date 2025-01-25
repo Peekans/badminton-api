@@ -12,6 +12,16 @@ class BadmintonScraper:
         racket_data = {
             "brand": "",
             "name": "",
+            "frame": "",
+            "shaft": "",
+            "flex": "",
+            "weight": "",
+            "max_tension": "",
+            "length": "",
+            "balance": "",
+            "grommets": "",
+            "shaft_diameters": "",
+            "special_features": ""
         }
 
 
