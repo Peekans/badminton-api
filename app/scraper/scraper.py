@@ -7,7 +7,7 @@ class BadmintonScraper:
 
     def scrape_racket(self, url):
         response = requests.get(url)
-        soup = BeautifulSoup(response.content, 'html.parser')
+        soup = BeautifulSoup(response, 'html.parser')
         # work in progress data scraping here
         racket_data = {
             "brand": "",
